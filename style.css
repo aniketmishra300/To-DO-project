@@ -1,6 +1,6 @@
 body
 {
-    background:#F7F7F7;
+    background:#d6d5d5;
     height: 1000px;
 }
 
@@ -20,7 +20,6 @@ body
 .up
 {
     color: #00A5EC;
-    
 }
 
 .ap
@@ -58,13 +57,10 @@ body
 {
     display: flex;
     justify-content:space-evenly;
-    /* position: relative;
-    left: 0px; */
 }
 
 .box1
-{
-    
+{ 
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 10px;
@@ -73,7 +69,6 @@ body
     height: 250px;
     position: relative;
     top: 120px;
-   
 }
 
 .box1:hover
@@ -132,7 +127,6 @@ body
 {
     position: relative;
     right: 350px;
-    
 }
 
 
@@ -166,8 +160,7 @@ body
     height: 170px;
     opacity: 1;   
     position: relative;
-    bottom: 270px ;
-    
+    bottom: 270px ; 
 }
 .text
 {
@@ -266,12 +259,100 @@ body
     top: 200px;
     left: 530px;
     margin: auto;
-
 }
 
 .add_new_trip:hover
 {
+    box-shadow: 1px 1px 100px 0px gray;   
+}
 
-    box-shadow: 1px 1px 100px 0px gray;
+@media screen and (min-width: 300px) and (max-width:380px)
+{
+    /* *
+    {
+        padding: 0;
+        margin: 0;
+    } */
+
+
+    .new
+    {
+        display: none;
+    }
+
+    .plus
+    {
+        position:relative;
+        top: 55px;
+        left: 80px;
+    }
     
+    .first
+    {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 50px;
+        row-gap: 20px;
+    }
+
+    .ap
+    {
+        position: relative;
+        left: 13px;
+    }
+    
+    .boxhide
+    {
+        display: none;
+    }
+
+    .second
+    {
+        flex-direction: column;
+        top: 140px;
+        left: 52px;
+    }
+
+    .box1, .box2
+    {
+        width: 220px;
+        height: 240px;
+    }
+    
+    .add_task
+    {
+        left: 0px ;
+        width: 270px ;
+        bottom: 1070px;
+    }
+    .text
+    {
+        width: 230px;
+        height: 15px;
+    }
+
+    #close, .btn
+    {
+        left: 80px;
+    }
+
+    .container2
+    {
+        left: 0px;
+    }
+
+    .b0x
+    {
+        width: 300px;
+        height: 300px;
+        left: 20px;
+        top: 110px;
+    }
+    
+    .backbtn
+    {
+        top: 10px;
+        left: -20px;
+    }
 }
